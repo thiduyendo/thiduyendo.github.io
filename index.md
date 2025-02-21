@@ -4,9 +4,9 @@ title: Home
 permalink: /
 ---
 
-<!-- Navigation bar -->
-<nav>
-  <ul style="text-align: center; list-style: none; padding: 0;">
+<!-- Navigation bar (Horizontal Tabs) -->
+<nav style="text-align: center; margin-bottom: 20px;">
+  <ul style="list-style: none; padding: 0;">
     <li style="display: inline; margin-right: 20px;"><a href="/">Home</a></li>
     <li style="display: inline; margin-right: 20px;"><a href="/about/">About Me</a></li>
     <li style="display: inline; margin-right: 20px;"><a href="/contact/">Contact</a></li>
