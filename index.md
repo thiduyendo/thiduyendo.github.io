@@ -4,13 +4,13 @@ title: Home
 permalink: /
 ---
 
-<!-- Navigation bar -->
+<!-- Navigation bar with clickable links -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <a href="/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">Home</a>
-  <a href="/about/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">About Me</a>
-  <a href="/contact/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">Contact</a>
-  <a href="/cv/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">CV</a>
-  <a href="/publications/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">Publications</a>
+  <a href="/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">Home</a> |
+  <a href="/about/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">About Me</a> |
+  <a href="/contact/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">Contact</a> |
+  <a href="/cv/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">CV</a> |
+  <a href="/publications/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">Publications</a>
 </div>
 
 <!-- Centered title and image -->
