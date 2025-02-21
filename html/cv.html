@@ -7,145 +7,125 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             line-height: 1.6;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        .contact, .education, .academic-experience, .research, .teaching, .honors-awards, .publications, .conference-presentations, .professional-services, .skills {
             margin: 20px;
-            padding: 10px;
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h2 {
+        h1, h2 {
             color: #333;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
+        .section-title {
+            background-color: #f4f4f4;
             padding: 5px;
+            border-radius: 5px;
+            margin-top: 20px;
         }
-        .links a {
-            text-decoration: none;
-            color: #1E90FF;
+        .contact-links a {
+            margin-right: 10px;
         }
-        .links a:hover {
-            text-decoration: underline;
+        .list-item {
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Curriculum Vitae - Duyen Thi Do</h1>
-</header>
+    <header>
+        <h1>Dr. Duyen Thi Do</h1>
+        <p>Postdoctoral Research Associate, Department of Computational Biology, St Jude Children’s Research Hospital</p>
+        <div class="contact-links">
+            <p>Contact: 
+                <a href="mailto:tddo1990@gmail.com">tddo1990@gmail.com</a>
+                <a href="https://www.linkedin.com/in/thiduyendo/" target="_blank">LinkedIn</a>
+                <a href="https://orcid.org/0000-0001-7361-292X" target="_blank">ORCID</a>
+                <a href="https://www.researchgate.net/profile/Thi-Do-6" target="_blank">ResearchGate</a>
+                <a href="https://scholar.google.com/citations?user=W7_ldvoAAAAJ&hl=en" target="_blank">Google Scholar</a>
+            </p>
+        </div>
+    </header>
 
-<div class="contact">
-    <h2>Contact Information</h2>
-    <ul>
-        <li>Email: <a href="mailto:tddo1990@gmail.com">tddo1990@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/thiduyendo/" target="_blank">https://www.linkedin.com/in/thiduyendo/</a></li>
-        <li>ORCID: <a href="https://orcid.org/0000-0001-7361-292X" target="_blank">https://orcid.org/0000-0001-7361-292X</a></li>
-        <li>ResearchGate: <a href="https://www.researchgate.net/profile/Thi-Do-6" target="_blank">https://www.researchgate.net/profile/Thi-Do-6</a></li>
-        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=W7_ldvoAAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=W7_ldvoAAAAJ&hl=en</a></li>
-    </ul>
-</div>
+    <section class="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li><strong>Ph.D. in Biomedical Informatics</strong> (2024) - Taipei Medical University, Taipei, Taiwan</li>
+            <li><strong>Master of Biotechnology</strong> (2014) - Chinese Culture University, Taipei, Taiwan</li>
+            <li><strong>Bachelor of Biotechnology</strong> (2012) - Ton Duc Thang University, Ho Chi Minh City, Vietnam</li>
+        </ul>
+    </section>
 
-<div class="education">
-    <h2>Education</h2>
-    <ul>
-        <li>Ph.D. in Biomedical Informatics, Taipei Medical University, 2024</li>
-        <li>Master of Biotechnology, Chinese Culture University, 2014</li>
-        <li>Bachelor of Biotechnology, Ton Duc Thang University, 2012</li>
-    </ul>
-</div>
+    <section class="experience">
+        <h2 class="section-title">Academic Experience</h2>
+        <ul>
+            <li><strong>Postdoctoral Research Associate</strong> (12/2024 - Present) - St Jude Children’s Research Hospital</li>
+            <li><strong>Postdoctoral Researcher</strong> (09/2024 – 11/2024) - Taipei Medical University, Taiwan</li>
+            <li><strong>Graduate Research Assistant</strong> (09/2020 – 08/2024) - Graduate Institute of Biomedical Informatics, Taipei Medical University</li>
+            <li><strong>Lecturer and Researcher</strong> (08/2014 – 08/2020) - Ton Duc Thang University, Vietnam</li>
+        </ul>
+    </section>
 
-<div class="academic-experience">
-    <h2>Academic Experience</h2>
-    <ul>
-        <li><strong>Postdoctoral Research Associate</strong> – St Jude Children’s Research Hospital, Department of Computational Biology, 12/2024 – Present</li>
-        <li><strong>Postdoctoral Researcher</strong> – Taipei Medical University, Graduate Institute of Biomedical Informatics, 09/2024 – 11/2024</li>
-        <li><strong>Graduate Research Assistant</strong> – Taipei Medical University, Graduate Institute of Biomedical Informatics, 09/2020 – 08/2024</li>
-        <li><strong>Lecturer and Researcher</strong> – Ton Duc Thang University, Faculty of Applied Sciences, 08/2014 – 08/2020</li>
-    </ul>
-</div>
+    <section class="research">
+        <h2 class="section-title">Research</h2>
+        <p>Main Domains:</p>
+        <ul>
+            <li>Bioinformatics, Genomics, Cancer Genomics</li>
+            <li>Machine Learning/Deep Learning for Antimicrobial Resistance Prediction, Cancer subtypes, and more</li>
+            <li>Whole Genome Data preprocessing</li>
+            <li>Pathogenicity and Cancer Driver Variant analysis</li>
+        </ul>
+    </section>
 
-<div class="research">
-    <h2>Research</h2>
-    <p>Main Domains: Bioinformatics, Genomics, Cancer Genomics, Machine Learning/Deep Learning, Antimicrobial Resistance Prediction, Cancer Subtypes from MRI (Radiomics) Data, Whole Genome Data Preprocessing</p>
-</div>
+    <section class="teaching">
+        <h2 class="section-title">Teaching Experience</h2>
+        <p>6 years of teaching experience at Ton Duc Thang University.</p>
+        <p>Teaching interests: Bioinformatics, Microbiology, Animal Biotechnology, Genetics, Cell Biology</p>
+    </section>
 
-<div class="teaching">
-    <h2>Teaching</h2>
-    <ul>
-        <li>Bioinformatics, Microbiology, Animal Biotechnology, Genetics, Cell Biology (Ton Duc Thang University, 6 years)</li>
-    </ul>
-</div>
+    <section class="awards">
+        <h2 class="section-title">Honors and Awards</h2>
+        <ul>
+            <li>National Science and Technology Council Travel Grant (2024)</li>
+            <li>Outstanding Oral Presentation Award (2022)</li>
+            <li>Outstanding Contribution to Vietnamese Student Association at TMU (2021)</li>
+            <li>Outstanding Ph.D. student scholarship (2020-2024)</li>
+            <li>Fulbright YSEALI Summer School Scholarship (2015)</li>
+        </ul>
+    </section>
 
-<div class="honors-awards">
-    <h2>Honors & Awards</h2>
-    <ul>
-        <li>National Science and Technology Council travel grant for attending ISMB2024 (July 2024)</li>
-        <li>Taipei Medical University Grant for attending InCoB2023 (November 2023)</li>
-        <li>Outstanding Oral Presentation Award (March 2022)</li>
-        <li>Outstanding PhD Student Scholarship (2020-2024)</li>
-        <li>Third Prize Winner in FULBRIGHT YSEALI Summer School Competition (August 2015)</li>
-        <li>Fulbright YSEALI Summer School Scholarship (2015)</li>
-    </ul>
-</div>
+    <section class="publications">
+        <h2 class="section-title">Peer-Reviewed Journal Publications</h2>
+        <ul>
+            <li><strong>Unitig-Centered Pan-Genome Machine Learning Approach for Predicting Antibiotic Resistance</strong> - Computational and Structural Biotechnology Journal (2024)</li>
+            <li><strong>Improving MGMT methylation status prediction of glioblastoma using machine learning</strong> - Scientific Reports (2022)</li>
+            <li><strong>A Radiomics-based Machine Learning Model for Tumor Mutational Burden in Gliomas</strong> - Cancers (2022)</li>
+            <!-- Add more publications as needed -->
+        </ul>
+    </section>
 
-<div class="publications">
-    <h2>Peer-Reviewed Journal Publications</h2>
-    <ul>
-        <li>Duyen Thi Do et al. "Unitig-Centered Pan-Genome Machine Learning Approach for Predicting Antibiotic Resistance and Discovering Novel Resistance Genes in Bacterial Strains". Computational and Structural Biotechnology Journal. [Link](https://doi.org/10.1016/j.csbj.2024.04.035)</li>
-        <li>Duyen Thi Do et al. "Improving MGMT methylation status prediction of glioblastoma through optimizing radiomics features using genetic algorithm-based machine learning approach". Scientific Reports. [Link](https://doi.org/10.1038/s41598-022-17707-w)</li>
-        <li>Lam, Luu Ho Thanh, et al. "A radiomics-based machine learning model for prediction of tumor mutational burden in lower-grade gliomas". Cancers. [Link](https://doi.org/10.3390/cancers14143492)</li>
-        <!-- Add more publications as needed -->
-    </ul>
-</div>
+    <section class="conferences">
+        <h2 class="section-title">Conference Presentations</h2>
+        <ul>
+            <li><strong>Enhancing AMR Prediction through Pan-genome Approach</strong> - ISMB2024 (Poster Presentation)</li>
+            <li><strong>Unitig-Centered Pan-Genome for Predicting Antibiotic Resistance</strong> - RECOMB2024 (Poster Presentation)</li>
+            <!-- Add more conferences if needed -->
+        </ul>
+    </section>
 
-<div class="conference-presentations">
-    <h2>Conference Presentations & Publications</h2>
-    <ul>
-        <li>Duyen Thi Do & Yu-Wei Wu. "Enhancing Antimicrobial Resistance Prediction through a Combined Pan-genome Approach with both Gene Cluster and SNP Information using Machine Learning Feature Selection Methods". ISMB2024 (Poster Presentation)</li>
-        <li>Duyen Thi Do & Yu-Wei Wu. "Unitig-Centered Pan-Genome Machine Learning for Predicting Antibiotic Resistance and Discovering Novel Resistance Genes in Bacterial Strains". RECOMB 2024 (Poster Presentation)</li>
-        <!-- Add more presentations as needed -->
-    </ul>
-</div>
+    <section class="services">
+        <h2 class="section-title">Professional Services</h2>
+        <ul>
+            <li>Ad-hoc journal reviewer: Scientific Reports (2023), BMC Cancer (2023)</li>
+            <li>Committee member: Undergraduate Thesis Defense (2014-2019)</li>
+        </ul>
+    </section>
 
-<div class="professional-services">
-    <h2>Professional Services</h2>
-    <ul>
-        <li>Ad-hoc journal reviewer: Scientific Reports (2023), BMC Cancer (2023)</li>
-        <li>Volunteer: The 2nd International Conference on Applied Sciences ICAS2 (2018)</li>
-        <li>Committee member: Undergraduate Thesis Defense (2014-2019)</li>
-    </ul>
-</div>
-
-<div class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Research Tools:</strong> Python, R, BLAST, CheckM, CARD_RGI, CD-HIT, MAFFT, SAS</li>
-        <li><strong>Key Research Methodologies:</strong> WGS/WES/Radiomics data mining, Genome Quality Check, Sequence Alignment, Pan-genome construction</li>
-        <li><strong>Analytics:</strong> R, Python programming (Data cleansing, plotting, analysis), Machine Learning (SVM, XGBoost, Genetic Algorithm, Neural Networks)</li>
-        <li><strong>Programming:</strong> Python, R, SAS</li>
-        <li><strong>Data Visualization:</strong> R (ggplot2/qplot), Python</li>
-        <li><strong>Database & Workflow Management:</strong> Linux, Cloud Computing, High-Performance Computing (HPC), Docker, Snakemake</li>
-    </ul>
-</div>
+    <section class="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Programming: Python, R, SAS</li>
+            <li>Research Tools: BLAST, CheckM, CARD_RGI, MAFFT</li>
+            <li>Machine Learning/Deep Learning: XGBoost, Neural Networks</li>
+            <li>Data Visualization: R, Python (ggplot2, qplot)</li>
+        </ul>
+    </section>
 
 </body>
 </html>
