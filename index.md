@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<!-- Navigation bar with clickable links -->
+<!-- Navigation bar (Horizontal Tabs) -->
 <div style="text-align: center; margin-bottom: 20px;">
   <a href="/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">Home</a> |
   <a href="/about/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">About Me</a> |
@@ -13,11 +13,18 @@ permalink: /
   <a href="/publications/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF;">Publications</a>
 </div>
 
-<!-- Centered title and image -->
+<!-- Home Page Content (Image and Description) -->
 <p align="center">
   <h1>Thi Duyen Do</h1>
   <img src="images/logo.jpg" width="150">
 </p>
 
-<!-- Description -->
-<p align="center">Welcome to my portfolio!</p>
+<p align="center">Welcome to my portfolio! Below are links to other sections of the site.</p>
+
+<!-- Additional Content or Links for Home Page -->
+<p align="center">
+  <a href="/about/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">Learn More About Me</a> |
+  <a href="/contact/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">Contact Me</a> |
+  <a href="/cv/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">View My CV</a> |
+  <a href="/publications/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">Publications</a>
+</p>
