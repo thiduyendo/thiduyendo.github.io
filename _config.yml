@@ -1,9 +1,14 @@
-#title: Thi Duyen Do
-#logo: images/logo.jpg
-#description: text below image
-#show_downloads: true
+title: Thi Duyen Do
+logo: images/logo.jpg
+description: Welcome to my portfolio!
+
 theme: jekyll-theme-minimal
 
-
-
-include: ["assets/style.css"]
+# Navigation links
+navigation:
+  Home: /
+  About Me: /about/
+  Contact: /contact/
+  CV: /cv/
+  Publications: /publications/
+  Research: /research/
