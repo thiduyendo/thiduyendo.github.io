@@ -10,7 +10,7 @@ navigation:
   About Me: /about/
   Contact: /contact/
   CV: /cv/
-  Publications: /publications/
+  #Publications: /publications/
   Research: /research/
 
 include: ["assets/style.css"]
