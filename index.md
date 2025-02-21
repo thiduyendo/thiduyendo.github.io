@@ -16,7 +16,6 @@ permalink: /
     <li style="display: inline; margin-right: 20px;"><a href="/contact/">Contact</a></li>
     <li style="display: inline; margin-right: 20px;"><a href="/cv/">CV</a></li>
     <li style="display: inline; margin-right: 20px;"><a href="/publications/">Publications</a></li>
-    #<li style="display: inline; margin-right: 20px;"><a href="/research/">Research</a></li>
   </ul>
 </nav>
 
