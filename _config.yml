@@ -9,7 +9,7 @@ navigation:
   Home: /
   About Me: /about/
   Contact: /contact/
-  CV: html/cv/
+  CV: /cv/
   Publications: /publications/
   Research: /research/
 
