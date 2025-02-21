@@ -13,8 +13,8 @@ Postdoctoral Research Associate @ St Jude Children's Research Hospital
 
 
 <p align="center">
-  <img src="images/logo.jpg" width="150">
   <h1>Thi Duyen Do</h1>
+  <img src="images/logo.jpg" width="150">
 </p>
 
 <p align="center">text below image</p>
