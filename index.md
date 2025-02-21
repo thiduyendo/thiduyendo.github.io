@@ -4,13 +4,9 @@ title: Home
 permalink: /
 ---
 
-<p align="center">
-  <h1>Thi Duyen Do</h1>
-  <img src="images/logo.jpg" width="150">
-</p>
-
+<!-- Navigation bar -->
 <nav>
-  <ul style="text-align: center; list-style: none;">
+  <ul style="text-align: center; list-style: none; padding: 0;">
     <li style="display: inline; margin-right: 20px;"><a href="/">Home</a></li>
     <li style="display: inline; margin-right: 20px;"><a href="/about/">About Me</a></li>
     <li style="display: inline; margin-right: 20px;"><a href="/contact/">Contact</a></li>
@@ -19,4 +15,11 @@ permalink: /
   </ul>
 </nav>
 
+<!-- Centered title and image -->
+<p align="center">
+  <h1>Thi Duyen Do</h1>
+  <img src="images/logo.jpg" width="150">
+</p>
+
+<!-- Description -->
 <p align="center">Welcome to my portfolio!</p>
