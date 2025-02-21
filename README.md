@@ -1,3 +1,10 @@
+<p align="center">
+  <h1>Thi Duyen Do</h1>
+  <img src="images/logo.jpg" width="150">
+</p>
+
+<p align="center">text below image</p>
+
 # Data Scientist
 
 ## Eduction
@@ -12,9 +19,4 @@ Postdoctoral Research Associate @ St Jude Children's Research Hospital
 - 2
 
 
-<p align="center">
-  <h1>Thi Duyen Do</h1>
-  <img src="images/logo.jpg" width="150">
-</p>
 
-<p align="center">text below image</p>
