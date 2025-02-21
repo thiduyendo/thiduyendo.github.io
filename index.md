@@ -20,7 +20,8 @@ permalink: /
 </p>
 
 <p align="center">
-  <h1>style="font-size: 18px; Welcome to my page!</h1>
-  <h2>style="font-size: 14px; This is the website of Thi Duyen Do, Ph.D. in Biomedical Informatics - Taipei Medical University</h2>
+  <h1 style="font-size: 36px;">Welcome to my page!</h1>
+  <h2 style="font-size: 24px;">This is the website of Thi Duyen Do, Ph.D. in Biomedical Informatics - Taipei Medical University</h2>
 </p>
+
 
