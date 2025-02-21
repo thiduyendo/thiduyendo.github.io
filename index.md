@@ -20,11 +20,3 @@ permalink: /
 </p>
 
 <p align="center">Welcome to my portfolio! Below are links to other sections of the site.</p>
-
-<!-- Additional Content or Links for Home Page -->
-<p align="center">
-  <a href="/about/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">Learn More About Me</a> |
-  <a href="/contact/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">Contact Me</a> |
-  <a href="/cv/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">View My CV</a> |
-  <a href="/publications/" style="text-decoration: none; font-weight: bold; color: #007BFF; margin: 10px;">Publications</a>
-</p>
