@@ -4,16 +4,14 @@ title: Home
 permalink: /
 ---
 
-<!-- Navigation bar (Horizontal Tabs) -->
-<nav style="text-align: center; margin-bottom: 20px;">
-  <ul style="list-style: none; padding: 0;">
-    <li style="display: inline; margin-right: 20px;"><a href="/">Home</a></li>
-    <li style="display: inline; margin-right: 20px;"><a href="/about/">About Me</a></li>
-    <li style="display: inline; margin-right: 20px;"><a href="/contact/">Contact</a></li>
-    <li style="display: inline; margin-right: 20px;"><a href="/cv/">CV</a></li>
-    <li style="display: inline; margin-right: 20px;"><a href="/publications/">Publications</a></li>
-  </ul>
-</nav>
+<!-- Navigation bar -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">Home</a>
+  <a href="/about/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">About Me</a>
+  <a href="/contact/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">Contact</a>
+  <a href="/cv/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">CV</a>
+  <a href="/publications/" style="margin: 0 15px; text-decoration: none; font-weight: bold;">Publications</a>
+</div>
 
 <!-- Centered title and image -->
 <p align="center">
