@@ -53,6 +53,38 @@ body {
     padding: 0 20px;
     position: relative;
 }
+/* Default styles (for larger screens) */
+body {
+  font-size: 16px;
+  max-width: 1200px; /* You can adjust this based on your design */
+  margin: 0 auto;
+}
+
+/* Mobile devices (max-width 600px) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .container {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+/* Tablets (between 600px and 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+  
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
 /* Container for centered content */
 .content {
     max-width: 800px;
