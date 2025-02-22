@@ -87,7 +87,7 @@ permalink: /
     <div class="dropdown-content">
         <a href="/about/">About me</a>
         <a href="#publications">Publication</a>
-        <a href="#CV">CV</a>
+        <a href="/cv/">CV</a>
     </div>  
 </div>
 
