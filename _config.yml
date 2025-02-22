@@ -11,6 +11,5 @@ navigation:
   Contact: /contact/
   CV: /cv/
   #Publications: /publications/
-  Research: /research/
 
 include: ["assets/style.css"]
