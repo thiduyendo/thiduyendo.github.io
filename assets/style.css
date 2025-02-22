@@ -1,4 +1,127 @@
+/* Navbar container */
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    }
+/* Button with hamburger icon */
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: black; /* Adjust color as needed */
+    }
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    }
 
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    }    
+/* Profile image */
+img {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    }
+/* Existing styles for body, navbar, etc. */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* Container for centered content */
+.content {
+    max-width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header content */
+.header-content {
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+    justify-content: flex-start;  /* Align image and text to the left */
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 100px;  /* Adjust size */
+    height: 100px; /* Ensure aspect ratio */
+    border-radius: 50%; /* Makes it circular */
+    margin-right: 20px; /* Space between avatar and text */
+}
+
+/* Image styling */
+.header-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Text styling */
+.header-text {
+    display: flex;
+    flex-direction: column;  /* Stack text vertically */
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header-text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+/* Styling for the contact links */
+.contact-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: #007BFF;
+}
+
+/* New styles you want to add */
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
 nav ul li a {
     text-decoration: none;
