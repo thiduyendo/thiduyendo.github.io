@@ -55,16 +55,23 @@ body {
 /* Header content */
 .header-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;  /* Vertically center the items */
+    justify-content: flex-start;  /* Align image and text to the left */
     margin-top: 20px;
 }
 
+/* Image styling */
 .header-content img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+/* Text styling */
+.header-text {
+    display: flex;
+    flex-direction: column;  /* Stack text vertically */
 }
 
 .header-text h1 {
@@ -76,6 +83,7 @@ body {
     font-size: 18px;
     margin: 5px 0;
 }
+
 
 /* Styling for the contact links */
 .contact-links a {
