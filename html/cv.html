@@ -25,22 +25,23 @@ permalink: /cv/
             margin: 0;
             padding: 0;
         }
+
         /* Navbar container */
         .dropdown {
             position: absolute;
             top: 20px;
             right: 20px;
         }
-        /* Dropdown button */
+
+        /* Button with hamburger icon */
         .dropbtn {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 15px;
-            font-size: 16px;
+            background: none;
             border: none;
+            font-size: 24px;
             cursor: pointer;
-            border-radius: 5px;
+            color: black; /* Adjust color as needed */
         }
+
         /* Dropdown content (hidden by default) */
         .dropdown-content {
             display: none;
@@ -53,6 +54,7 @@ permalink: /cv/
             border-radius: 5px;
             overflow: hidden;
         }
+
         /* Links inside the dropdown */
         .dropdown-content a {
             color: black;
@@ -60,10 +62,12 @@ permalink: /cv/
             text-decoration: none;
             display: block;
         }
+
         /* Change color of dropdown links on hover */
         .dropdown-content a:hover {
             background-color: #f1f1f1;
         }
+
         /* Show the dropdown menu on hover */
         .dropdown:hover .dropdown-content {
             display: block;
@@ -75,6 +79,7 @@ permalink: /cv/
             margin: 50px auto;
             text-align: center;
         }
+
         /* Profile image */
         img {
             width: 150px;
@@ -87,7 +92,7 @@ permalink: /cv/
 
 <!-- Dropdown Menu -->
 <div class="dropdown">
-    <button class="dropbtn">Menu</button>
+    <button class="dropbtn">&#9776;</button>
     <div class="dropdown-content">
         <a href="#about">About</a>
         <a href="#education">Education</a>
