@@ -15,10 +15,12 @@ permalink: /
 </div>
 
 <!-- Home Page Content (Image and Description) -->
-<div class="content">
-    <h1>Thi Duyen Do</h1>
-    <img src="{{ '/images/logo.jpg' | relative_url }}" width="150" alt="Profile Picture">
-    
-    <h2>Welcome to my page</h2>
-    <h3>This is the website of Thi Duyen Do, Ph.D. in Biomedical Informatics - Taipei Medical University</h3>
-</div>
+<p align="center">
+  <h1>Thi Duyen Do</h1>
+  <img src="images/logo.jpg" width="150">
+</p>
+
+<p align="center">
+  <h2 style="font-family: 'Roboto', sans-serif;">Welcome to my page</h2>
+  <h3 style="font-family: 'Roboto', sans-serif;">This is the website of Thi Duyen Do, Ph.D. in Biomedical Informatics - Taipei Medical University</h3>
+</p>
