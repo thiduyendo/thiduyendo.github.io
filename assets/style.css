@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0 20px;
+    padding: 0 30px;
     position: relative;
 }
 /* Container for centered content */
@@ -10,7 +10,7 @@ body {
     max-width: 800px;
     margin: 50px auto;
     text-align: center;
-    padding-right: 20px; /* Adjust the padding on the right side */
+    padding-right: 30px; /* Adjust the padding on the right side */
 }
 
 /* Navbar container */
