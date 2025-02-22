@@ -56,7 +56,7 @@ body {
 
 /* Container for centered content */
 .content {
-    max-width: 800px;
+    max-width: 600px;
     margin: 50px auto;
     text-align: center;
     padding-left: 40px;
