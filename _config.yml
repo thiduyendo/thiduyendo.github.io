@@ -6,7 +6,7 @@ theme: jekyll-theme-minimal
 
 # Navigation links
 navigation:
-  Home: /
+  Home: /home/
   About Me: /about/
   Contact: /contact/
   CV: /cv/
