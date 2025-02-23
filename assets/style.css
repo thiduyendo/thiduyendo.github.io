@@ -43,7 +43,7 @@
 /* Profile image */
 img {
     width: 150px;
-    margin-top: 0;
+    margin-top: 20px;
     border-radius: 50%;
     }
 /* Existing styles for body, navbar, etc. */
